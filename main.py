@@ -114,7 +114,7 @@ Change the code so that there are two inputs and the first number it can be divi
 first_number = int(input("Enter a number: "))
 second_number = int(input("Enter a number: "))
 
-if second_number != 0:
+if first_number % second_number == 0:
   print("Divisible")
 else:
   print("Not divisible")
